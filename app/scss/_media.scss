@@ -81,6 +81,12 @@
 			margin-bottom: 5px;
 		}
 	}
+
+	.type-one {
+		& .pattern {
+			margin-bottom: $gutter/2;
+		}
+	}
 }
 
 // ≥576px
@@ -93,6 +99,9 @@
 		& .search {
 			padding-right: $gutter/2;
 		}
+	}
+	.fourth-section {
+		padding: $gutter/1.5 0;
 	}
 }
 

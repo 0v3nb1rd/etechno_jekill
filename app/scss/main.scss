@@ -612,5 +612,131 @@ section {
 	}
 }
 
+.button {
+	position: relative;
+	display: inline-block;
+	padding: 12px 40px;
+	border: none;
+	border-radius: 10em;
+	text-align: center;
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	background-color: $accent;
+	transition: background-color .1s ease;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: #fff;
+	}
+
+	&:hover {
+		background-color: lighten($accent, 10%);
+	}
+
+	&:active {
+		background-color: darken($accent, 10%);
+	}
+}
+.s_more {
+	padding: $gutter*2 0;
+	background-color: #f5f5f5;
+}
+
+.main-footer {
+	background-color: $dark-blue;
+	padding: 25px 0;
+	border-bottom: 1px solid rgba(#fff, .1);
+}
+
+.bottom-footer {
+	background-color: $dark-blue;
+	padding: 25px 0 35px;
+
+	& .logo {
+		display: inline-block;
+	}
+	& p {
+		margin: 5px;
+		color: #rgba(#fff, .2);
+		font-size: 12px;
+	}
+
+	& .footer-copy {
+		font-size: 13px;
+		font-family: baron-t, sans-serif;
+		color: rgba(#fff, .45);
+	}
+}
+
+.footer-menu {
+
+	& li {
+		&.active {
+			text-decoration: underline;
+			background: none;
+			& a {
+				background: none;
+			}
+		}
+		a {
+			padding: 0 10px;
+			font-size: 15px;
+			&:hover {
+				text-decoration: underline;
+				background: none;
+			}
+		}	
+	}
+}
+
+nav.soc {
+	padding: 15px 0 20px;
+
+	& ul,
+	& li {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+	}
+	& li {
+		display: inline-block;
+		& a {
+			display: block;
+			width: 52px;
+			height: 52px;
+			margin: 4px;
+			line-height: 50px;
+			text-align: center;
+			color: #fff;
+			font-size: 24px;
+			border: 1px solid rgba(#fff, .1);
+			border-radius: 10em;
+			transition: border-color .25s ease, opacity .25s ease;
+			& .fa {
+				transition: opacity .25s ease;
+				opacity: .75;
+			}
+			&:hover {
+				border-color: rgba(#fff, .35);
+				& .fa {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.logo-footer {
+	& span {
+		color: $accent;
+	}
+}
+
 
 @import "media"; // Always at the end

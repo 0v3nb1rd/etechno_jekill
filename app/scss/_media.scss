@@ -117,6 +117,15 @@
 				background-image: linear-gradient(rgba(#000, .3), rgba(#000, .75));
 			}
 		}
+		&-content {
+			bottom: 10%;
+		}
+	}
+
+	.article-body {
+		& blockquote {
+			margin: 0;
+		}
 	}
 }
 

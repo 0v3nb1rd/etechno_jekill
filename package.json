@@ -1,12 +1,12 @@
 {
-  "name": "optimizedhtml",
+  "name": "optimize",
   "version": "4.0.0",
   "description": "Start HTML Template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nazzar",
+  "author": "Nazar",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.7",
@@ -22,6 +22,7 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "natives": "^1.1.6"
   }
 }

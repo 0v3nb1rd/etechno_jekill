@@ -1,36 +1,46 @@
-title: Techno - Новости из IT мира
-name: TECHNO
+title: ETechno - Новости из IT мира
+name: ETECHNO
 description: IT Новости, електроники, современних технологий, гаджетов, програмирования, и многое другое
 
-themecolor: '#202225'
-imagehome: img/techno.jpg
-url: 'http://techno.tk'
-baseurl: '/' # the subpath of your site, e.g. /blog
+themecolor: "#202225"
+imagehome: img/etechno.jpg
+url: "https://etechno.tk"
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 plugins: [jekyll-paginate-v2]
 category_dir: blog
 pagination:
   enabled: true
   per_page: 9
-  title: ':title - страница :num'
+  title: ":title - страница :num"
   limit: 0
-  sort_field: 'date'
+  sort_field: "date"
   sort_reverse: true
   trail:
     before: 2
     after: 2
 
-exclude: ['node_modules', 'gulpfile.js', 'package.json', 'package-lock.json', 'js/common.js', 'npm-debug.log', '**/Thumbs.db', 'libs', 'scss', '**/*.DS_Store']
+exclude:
+  [
+    "node_modules",
+    "gulpfile.js",
+    "package.json",
+    "package-lock.json",
+    "js/common.js",
+    "npm-debug.log",
+    "**/Thumbs.db",
+    "libs",
+    "scss",
+    "**/*.DS_Store",
+  ]
 
-soc: 
-  <li><a href="#"><i class="fa fa-vk"></i></a></li>
+soc: <li><a href="#"><i class="fa fa-vk"></i></a></li>
   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
   <li><a href="#"><i class="fa fa-rss"></i></a></li>
 
 copyright: Копирование и размещение контента на других сайтах запрещено.
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

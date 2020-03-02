@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /index.html
-Host: techno.tk
-Sitemap: http://techno.tk/sitemap.xml
+Host: etechno.tk
+Sitemap: https://etechno.tk/sitemap.xml

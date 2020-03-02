@@ -1,5 +1,6 @@
 node_modules
 _site
+.jekyll-cache
 .env
 **/package-lock.json
 **/Thumbs.db
